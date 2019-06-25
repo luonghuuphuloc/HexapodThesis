@@ -1,0 +1,6 @@
+Arrange X (cm): ( -7.015 ; 6.31 ) when Z = 12.797,  Y = 0, Roll = 0, Pitch = 0, Yaw = 0
+Arrange Y (cm): ( -7.823 ; 7.303 ) when Z = 12.797,  X = 0, Roll = 0, Pitch = 0, Yaw = 0
+Arrange Z (cm): ( 9.771 ; 15.823 ) when X = 0, Y = 0, Roll = 0, Pitch = 0, Yaw = 0
+Arrange Roll (rad) : ( -13.7 ; 12.187) when Z = 12.797,  X = 0, Y = 0, Pitch = 0, Yaw = 0
+Arrange Pitch (rad) : ( -13.7 ; 12.187) when Z = 12.797,  X = 0, Y = 0, Roll = 0, Yaw = 0
+Arrange Yaw (rad) : ( -27.294 ; 24.150) when Z = 12.797,  X = 0, Y = 0, Roll = 0, Yaw = 0

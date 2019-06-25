@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/19/19||15:35:17" using="SimMechanics Link Version 4.6" from="SolidWorks 25.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="TestAsm" uid="TestAsm" version="190">
+<AssemblyFile name="TestAsm.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Test2-1" uid="Test2-1" entityUid="Test2*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.024675973630367207 0.085068149153031056 0.10115365197340111</Translation>
+</Transform>
+</Instance>
+<Instance name="Test1-1" uid="Test1-1" grounded="true" entityUid="Test1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.045324026369632779 0.085068149153031042 0.091153651973401112</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Test1-1</Uid>
+</InstancePath>
+<Position>-0.075000000000000011 0.024999999999999981 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Test2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Test1-1</Uid>
+</InstancePath>
+<Position>0.074999999999999983 -0.024999999999999994 0.050000000000000017</Position>
+<Axis>1.3877787807814457e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Test2-1</Uid>
+</InstancePath>
+<Position>-0.025000000000000001 -0.0050000000000000044 0.030000000000000013</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Test1" uid="Test1*:*Default" version="288">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Test1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.095000000000000001</Mass>
+<CenterOfMass>0.01473684210526318 0 0.010263157894736839</CenterOfMass>
+<Inertia>3.2951754385964948e-005 0.00023132017543859643 0.00023795175438596486 0 -2.7631578947368443e-005 0</Inertia>
+</MassProperties>
+<GeometryFile name="Test1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Test2" uid="Test2*:*Default" version="283">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Test2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015000000000000003</Mass>
+<CenterOfMass>0 0 0.014999999999999998</CenterOfMass>
+<Inertia>1.2500000000000003e-006 4.2500000000000008e-006 3.2500000000000011e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Test2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

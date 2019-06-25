@@ -1,0 +1,39 @@
+CC     = "E:\Software\Matlab2015a\sys\lcc64\lcc64\bin\lcc64.exe"
+LD     = "E:\Software\Matlab2015a\sys\lcc64\lcc64\bin\lcclnk64.exe"
+LIBCMD = "E:\Software\Matlab2015a\sys\lcc64\lcc64\bin\lcclib64.exe"
+CFLAGS = -dll -noregistrylookup  -c -Zp8 -DLCC_WIN64 -DMATLAB_MEX_FILE -DMX_COMPAT_32 -nodeclspec 
+LDFLAGS = -s -dll -L"E:\Software\Matlab2015a\sys\lcc64\lcc64\lib64" -entry LibMain -map sfun.map 
+LIBFLAGS = 
+
+OBJECTS = \
+	"Hexapod_2nd_sfun.obj"\
+	"c2_Hexapod_2nd.obj"\
+	"Hexapod_2nd_sfun_registry.obj"\
+	"lccstub.obj"\
+	"Hexapod_2nd_sfun.def"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\sf_runtime.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmwblas.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmx.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmex.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmat.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libfixedpoint.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libut.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmwmathutil.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libemlrt.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmwsl_log_load_blocks.lib"\
+	"E:\Software\Matlab2015a\extern\lib\win64\microsoft\libmwsimulink.lib"\
+	"E:\Software\Matlab2015a\lib\win64\libmwipp.lib"\
+
+INCLUDE_PATH= -I"E:\Software\Matlab2015a\sys\lcc64\lcc64\include64"  -I"E:\Software\Matlab2015a\extern\include"  -I"E:\Software\Matlab2015a\simulink\include"  -I"E:\Software\Matlab2015a\stateflow\c\mex\include"  -I"E:\Software\Matlab2015a\rtw\c\src"  -I"D:\Document\Thesis\Software\Matlab\slprj\_sfprj\Hexapod_2nd\_self\sfun\src" 
+ 
+
+Hexapod_2nd_sfun.mexw64 : $(MAKEFILE) $(OBJECTS)
+	$(LD) $(LDFLAGS) -o Hexapod_2nd_sfun.mexw64 @Hexapod_2nd_sfun.lmko
+Hexapod_2nd_sfun.obj :	"Hexapod_2nd_sfun.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Hexapod_2nd_sfun.c"
+c2_Hexapod_2nd.obj :	"c2_Hexapod_2nd.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "c2_Hexapod_2nd.c"
+Hexapod_2nd_sfun_registry.obj :	"Hexapod_2nd_sfun_registry.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "Hexapod_2nd_sfun_registry.c"
+lccstub.obj :	"E:\Software\Matlab2015a\sys\lcc64\lcc64\mex\lccstub.c"
+	$(CC) $(CFLAGS) $(INCLUDE_PATH) "E:\Software\Matlab2015a\sys\lcc64\lcc64\mex\lccstub.c"

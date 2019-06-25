@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/20/19||09:57:00" using="SimMechanics Link Version 4.6" from="SolidWorks 25.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="testmatlab" uid="testmatlab" version="194">
+<AssemblyFile name="testmatlab.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="vitme-1" uid="vitme-1" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>0.25000000000000044 0.43301270189221963 0.86602540378443849 0.43301270189221958 0.74999999999999967 -0.50000000000000044 -0.86602540378443849 0.50000000000000044 0</Rotation>
+<Translation>0.098948544860601062 0.17439518855891017 0.42007856968445123</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.36869091483037431 0.34873118372332723 0.38207856968445147</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-1-v2-1" uid="Nut-1-v2-1" entityUid="Nut-1-v2*:*Default">
+<Transform>
+<Rotation>0.50000000000000044 0 0.86602540378443837 0.86602540378443837 -1.3778149774262154e-016 -0.50000000000000044 1.1102230246251563e-016 1 0</Rotation>
+<Translation>0.16723550501477333 0.1349696937317576 0.38907856968445143</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A2-1" uid="Gia_do_vitme-A2-1" entityUid="Gia_do_vitme-A2*:*Default">
+<Transform>
+<Rotation>-0.86602540378443849 0 0.50000000000000056 0.50000000000000044 0 0.86602540378443815 0 1 1.6653345369377348e-016</Rotation>
+<Translation>0.10555662861661999 0.1478965737836721 0.38707856968445137</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A1-1" uid="Gia_do_vitme-A1-1" entityUid="Gia_do_vitme-A1*:*Default">
+<Transform>
+<Rotation>0.86602540378443837 3.3306690738754696e-016 -0.50000000000000033 -0.50000000000000044 0 -0.86602540378443849 -1.6653345369377348e-016 1 0</Rotation>
+<Translation>0.34348782820206936 0.055893803334148298 0.38707856968445142</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.092176061022739064 0.053217873644317848 0.0050000000000000044</Position>
+<Axis>0.86602540378443849 -0.50000000000000044 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-1</Uid>
+</InstancePath>
+<Position>-0.021027924209333318 0.062 0.032644431682444519</Position>
+<Axis>1 0 -2.7755575615628914e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 -2.2848530866117702e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.14942529279565644 -0.25881219905793251 0.0050000000000000044</Position>
+<Axis>0.50000000000000033 0.86602540378443849 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-1</Uid>
+</InstancePath>
+<Position>-0.037027924209333332 0.0050000000000000044 0.006644431682444496</Position>
+<Axis>2.2204460492503131e-016 -2.2848530866117712e-016 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.14942529279565644 -0.25881219905793251 0.0050000000000000044</Position>
+<Axis>0.50000000000000033 0.86602540378443849 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-1</Uid>
+</InstancePath>
+<Position>-0.037027924209333291 0.0050000000000000044 0.032644431682444408</Position>
+<Axis>1.6653345369377348e-016 -1.4621496214981341e-016 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.089689273771992872 -0.051782126355682134 0.0050000000000000044</Position>
+<Axis>-0.8660254037844386 0.50000000000000011 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-1</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062 0.032644431682444408</Position>
+<Axis>1 1.4966652487938993e-016 1.6653345369377348e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.4966652487938993e-016 -1 1.4621496214981341e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-1</Uid>
+</InstancePath>
+<Position>-0.0037745187483815557 0.032999999999999974 0.019644431682444508</Position>
+<Axis>-1 0 2.7755575615628914e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-1</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-1</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062 0.032644431682444408</Position>
+<Axis>1 1.4966652487938993e-016 1.6653345369377348e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-1</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-1</Uid>
+</InstancePath>
+<Position>0 0.031000000000000028 -0.01920782104868022</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-1</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.0050000000000000044</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base" uid="Base*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.63082604945409104</Mass>
+<CenterOfMass>-0.15066868642102949 -0.10809432541361462 0.0025000000000000001</CenterOfMass>
+<Inertia>0.0073306379430536674 0.0073306379430536656 0.014658647444234606 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="1" a="1"/>
+<Diffuse r="0" g="1" b="1" a="1"/>
+<Specular r="0" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gia_do_vitme-A1" uid="Gia_do_vitme-A1*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gia_do_vitme-A1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013121105162179156</Mass>
+<CenterOfMass>-0.024308584943184754 0.023379823365007216 0.01995136097159227</CenterOfMass>
+<Inertia>5.8231116298080617e-006 1.3626808889542792e-006 5.2759504602142369e-006 7.9952660665436573e-008 6.8040252168731895e-008 -1.6794527398500829e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Gia_do_vitme-A1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gia_do_vitme-A2" uid="Gia_do_vitme-A2*:*Default" version="321">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gia_do_vitme-A2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014199105162179154</Mass>
+<CenterOfMass>-0.026754686111688079 0.021870541664315259 0.018639561916547739</CenterOfMass>
+<Inertia>6.3097921104158302e-006 2.5288473384770738e-006 6.7516180298594724e-006 -2.6200712088644458e-007 -3.6309691897499067e-007 -8.0599915209256523e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Gia_do_vitme-A2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nut-1-v2" uid="Nut-1-v2*:*Default" version="180">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nut-1-v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031254072733165328</Mass>
+<CenterOfMass>-3.117681167389463e-009 0.053720575965513481 0.00043733253425267727</CenterOfMass>
+<Inertia>2.8495493136069347e-005 1.0604017169456751e-005 2.0688284395329395e-005 -3.7730972196377847e-007 -2.1757689825633037e-012 -2.681696118207133e-012</Inertia>
+</MassProperties>
+<GeometryFile name="Nut-1-v2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vitme" uid="vitme*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vitme.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012566370614359173</Mass>
+<CenterOfMass>0 0 0.125</CenterOfMass>
+<Inertia>6.5500112432244782e-005 6.5500112432244782e-005 1.0053096491487339e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vitme_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

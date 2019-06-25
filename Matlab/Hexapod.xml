@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/24/19||14:31:01" using="SimMechanics Link Version 4.6" from="SolidWorks 25.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Hexapod" uid="Hexapod" version="303">
+<AssemblyFile name="Hexapod.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="TrucChinh-1" uid="TrucChinh-1" entityUid="TrucChinh*:*Default">
+<Transform>
+<Rotation>0.98933208737641265 0.065936663311374946 -0.1299014138444729 -0.076114242395825732 0.99427410677361061 -0.075004151245436509 0.12421208875121666 0.084091361214462493 0.98868599665270807</Rotation>
+<Translation>0.18133166065944858 0.3702064733190823 0.41618785722542317</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-2" uid="Nut-2" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>0.86602540378443982 0.49999999999999806 0 -0.49999999999999806 0.86602540378443982 0 0 0 1</Rotation>
+<Translation>0.18133166065965406 0.092689812820744552 0.38118785722543824</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-5" uid="Nut-5" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-2.2204460492503131e-016 1 0 -1 -2.2204460492503131e-016 0 0 0 1</Rotation>
+<Translation>0.36970661439759789 0.20144814306995362 0.38118785722543824</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-4" uid="Nut-4" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>0.86602540378441217 -0.50000000000004585 0 0.50000000000004585 0.86602540378441217 0 0 0 1</Rotation>
+<Translation>0.18133166065948067 0.37020647331905432 0.3811878572254383</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-1" uid="Nut-1" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>0.86602540378443982 0.49999999999999806 0 -0.49999999999999806 0.86602540378443982 0 0 0 1</Rotation>
+<Translation>0.12937013643258735 0.12268981282074463 0.38118785722543824</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-3" uid="Nut-3" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>0.86602540378443882 -0.50000000000000022 0 0.50000000000000022 0.86602540378443882 0 0 0 1</Rotation>
+<Translation>0.12937013643259659 0.34020647331913872 0.38118785722543824</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-1" uid="Base-1" grounded="true" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.37747149025096172 0.33954246848356828 0.37618785722543824</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-6" uid="Nut-6" entityUid="Nut*:*Default">
+<Transform>
+<Rotation>-1.7347234759768064e-016 1 0 -1 -1.7347234759768064e-016 0 0 0 1</Rotation>
+<Translation>0.36970661439759789 0.26144814307015607 0.38118785722543824</Translation>
+</Transform>
+</Instance>
+<Instance name="Platform-3" uid="Platform-3" entityUid="Platform*:*Default">
+<Transform>
+<Rotation>0.86602540378443371 -0.50000000000000833 1.0824674490095276e-015 -0.50000000000000833 -0.86602540378443393 -1.7312540290248535e-015 1.803245053277891e-015 9.5756735873919752e-016 -0.99999999999999978</Rotation>
+<Translation>0.22680280382994544 0.23144814306990652 0.62592505655597608</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh-2" uid="TrucChinh-2" entityUid="TrucChinh*:*Default">
+<Transform>
+<Rotation>0.93160571280909832 0.33946490031018373 -0.12990141384468779 -0.33215228648737594 0.94023892488934901 0.075004151245977882 0.14759964242050141 -0.026727244158694728 0.9886859966526389</Rotation>
+<Translation>0.18133166065964365 0.092689812820731909 0.4161878572254456</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh-3" uid="TrucChinh-3" entityUid="TrucChinh*:*Default">
+<Transform>
+<Rotation>-0.63539549350264068 0.772186872987076 -4.7934459708742772e-006 -0.76344989127875884 -0.62820718199209657 -0.15000000000000052 -0.11583104222524719 -0.095305664469591128 0.98868599665263923</Rotation>
+<Translation>0.36970661439767083 0.26144814307038089 0.41618785722523222</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh-6" uid="TrucChinh-6" entityUid="TrucChinh*:*Default">
+<Transform>
+<Rotation>0.88383256973124968 0.44940445702019138 0.12990620729065497 -0.44318829834447998 0.8932859312001904 -0.074995848754002226 -0.14974685603637852 0.008710862769895189 0.98868599665264023</Rotation>
+<Translation>0.12937013643258133 0.12268981282073814 0.41618785722544199</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh-4" uid="TrucChinh-4" entityUid="TrucChinh*:*Default">
+<Transform>
+<Rotation>0.91733609206999855 0.39811366990190861 -4.7934459711587718e-006 -0.39360875093690317 0.90695763472495849 0.14999999999999944 0.059721397937706241 -0.1375985270682179 0.98868599665263945</Rotation>
+<Translation>0.36970661439768432 0.20144814306973055 0.41618785722546947</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh-5" uid="TrucChinh-5" entityUid="TrucChinh*:*Default">
+<Transform>
+<Rotation>0.97178632323798331 0.19686472328722512 0.12990620729066693 -0.20760847403295388 0.97533294016934136 0.074995848754022376 -0.11193776609040287 -0.099849569581807379 0.98868599665263701</Rotation>
+<Translation>0.12937013643283196 0.34020647331914677 0.41618785722535845</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.16242529279565365 -0.28132885955632747 0.020000000000000018</Position>
+<Axis>-0.49999999999999439 -0.86602540378444193 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1</Uid>
+</InstancePath>
+<Position>0.0050000000000000253 -0.013000000000000012 0.015000000000000013</Position>
+<Axis>2.2204460492503131e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.16242529279565596 -0.2813288595563283 0.020000000000000018</Position>
+<Axis>-0.49999999999999856 -0.8660254037844396 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 -0.013000000000000012 0.015000000000000013</Position>
+<Axis>2.2204460492503131e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0052351241466361831 0 0.020000000000000018</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-6</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.013000000000000012 0.015000000000000013</Position>
+<Axis>-1.7347234759768068e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-6</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident9">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0.0052351241466361831 0 0.020000000000000018</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-5</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.013000000000000012 0.015000000000000013</Position>
+<Axis>-1.7347234759768068e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-5</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.068812860982530588 0.11918737143590247 0.020000000000000018</Position>
+<Axis>-0.50000000000004585 0.86602540378441206 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-4</Uid>
+</InstancePath>
+<Position>0.0049999999999999489 0.013000000000000012 0.015000000000000013</Position>
+<Axis>-1.6653345369377348e-016 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-4</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>-0.06881286098252426 0.11918737143590596 0.020000000000000018</Position>
+<Axis>-0.50000000000000033 0.86602540378443849 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-3</Uid>
+</InstancePath>
+<Position>0.0050000000000000044 0.013000000000000012 0.015000000000000013</Position>
+<Axis>-1.6653345369377348e-016 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-1</Uid>
+</InstancePath>
+<Position>0 0 0.020000000000000018</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-3</Uid>
+</InstancePath>
+<Position>0 0 0.015000000000000013</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nut-4</Uid>
+</InstancePath>
+<Position>0 0 0.034999999999999976</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nut-3</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000031</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nut-6</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000031</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nut-5</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000031</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nut-2</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000031</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Nut-1</Uid>
+</InstancePath>
+<Position>0 0 0.035000000000000031</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric15">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-5</Uid>
+</InstancePath>
+<Position>0 0 0.20000000000000007</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Platform-3</Uid>
+</InstancePath>
+<Position>-0.12375749999999999 -0.071451425939235202 0.012000000000000011</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric16">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-1</Uid>
+</InstancePath>
+<Position>0 0 0.20000000000000007</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Platform-3</Uid>
+</InstancePath>
+<Position>-0.12375749999999999 -0.071451425939235202 0.012000000000000011</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric17">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-3</Uid>
+</InstancePath>
+<Position>0 0 0.20000000000000001</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Platform-3</Uid>
+</InstancePath>
+<Position>0.12375750000000002 -0.071451425939235036 0.0119999999999999</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric18">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-4</Uid>
+</InstancePath>
+<Position>0 0 0.20000000000000007</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Platform-3</Uid>
+</InstancePath>
+<Position>0.12375750000000002 -0.071451425939235036 0.0119999999999999</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric19">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-2</Uid>
+</InstancePath>
+<Position>0 0 0.19999999999999996</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Platform-3</Uid>
+</InstancePath>
+<Position>0 0.14290285187847016 0.012000000000000011</Position>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric20">
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>TrucChinh-6</Uid>
+</InstancePath>
+<Position>0 0 0.20000000000000007</Position>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="sphere">
+<InstancePath>
+<Uid>Platform-3</Uid>
+</InstancePath>
+<Position>0 0.14290285187847016 0.012000000000000011</Position>
+</ConstraintGeometry>
+</Concentric>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base" uid="Base*:*Default" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.650326049454091</Mass>
+<CenterOfMass>-0.15066868642102954 -0.10809432541361458 0.0026799097546503217</CenterOfMass>
+<Inertia>0.0077657528881997107 0.0077657528881997125 0.015526108183409286 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.9137254901960784" g="1" b="0.62352941176470589" a="1"/>
+<Diffuse r="0.9137254901960784" g="1" b="0.62352941176470589" a="1"/>
+<Specular r="0.4568627450980392" g="0.5" b="0.31176470588235294" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nut" uid="Nut*:*Default" version="298">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nut.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.006435425627841042</Mass>
+<CenterOfMass>0 7.1863204581242912e-012 0.016116302955452563</CenterOfMass>
+<Inertia>1.1861451896073155e-006 9.9894518347735916e-007 2.9443541848650829e-007 -5.5572845726313736e-016 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Nut_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.058823529411764705" g="0.60784313725490191" b="1" a="1"/>
+<Diffuse r="0.058823529411764705" g="0.60784313725490191" b="1" a="1"/>
+<Specular r="0.029411764705882353" g="0.30392156862745096" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Platform" uid="Platform*:*Default" version="326">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Platform.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1369797432196701</Mass>
+<CenterOfMass>-8.6335511661959149e-009 6.1215794073484328e-009 0.0027994376202051547</CenterOfMass>
+<Inertia>0.00038363429844330224 0.00038363478682079878 0.00076587816722526315 -3.8311540020515196e-012 3.5829820000865273e-012 -6.0276585243860739e-011</Inertia>
+</MassProperties>
+<GeometryFile name="Platform_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="0" b="0" a="1"/>
+<Diffuse r="0" g="0" b="0" a="1"/>
+<Specular r="0" g="0" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TrucChinh" uid="TrucChinh*:*Default" version="302">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TrucChinh.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0059270473224308689</Mass>
+<CenterOfMass>0 0 0.10000000000000034</CenterOfMass>
+<Inertia>2.1403335134713006e-005 2.1403316877194336e-005 5.0249738268210844e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TrucChinh_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>

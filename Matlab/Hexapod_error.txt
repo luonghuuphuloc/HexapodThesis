@@ -1,0 +1,12 @@
+Constrained Parts: Platform-1, u-joint-3-v2-1
+Constrain Name: Tangent3
+Error Details: Massless connector is not supported if there are more than one constrain between parts. A weld joint has been added between the constrained parts.
+---------------------------------------------------------------------------------
+Constrained Parts: Platform-1, u-joint-3-v2-5
+Constrain Name: Tangent6
+Error Details: Massless connector is not supported if there are more than one constrain between parts. A weld joint has been added between the constrained parts.
+---------------------------------------------------------------------------------
+Constrained Parts: Platform-1, u-joint-3-v2-4
+Constrain Name: Tangent4
+Error Details: Massless connector is not supported if there are more than one constrain between parts. A weld joint has been added between the constrained parts.
+---------------------------------------------------------------------------------

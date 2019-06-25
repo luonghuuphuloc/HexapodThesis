@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="test">
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst33|encoder_module:inst1|lpm_counter4:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t2h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst33|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_g7h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst37|encoder_module:inst1|lpm_counter4:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t2h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst37|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_g7h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst18|encoder_module:inst1|lpm_counter4:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t2h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst18|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_g7h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst34|encoder_module:inst1|lpm_counter4:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t2h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst34|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_g7h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst3|encoder_module:inst1|lpm_counter4:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t2h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst3|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_g7h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst35|encoder_module:inst1|lpm_counter4:inst5|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_t2h.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|xuat_xung|encoder:inst35|lpm_counter0:inst3|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_g7h.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

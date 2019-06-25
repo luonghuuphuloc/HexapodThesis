@@ -1,0 +1,20 @@
+GED
+
+	Undo Commands
+	     1.	Insert Symbol
+	     2.	Properties
+	     3.	Properties
+	     4.	Delete
+	     5.	Delete
+	     6.	Move
+	     7.	Properties
+	     8.	Insert Symbol
+	     9.	Delete
+
+
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+
+

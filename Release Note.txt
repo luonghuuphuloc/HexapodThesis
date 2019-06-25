@@ -1,0 +1,7 @@
+Hexapod-V1.0
+- Features:
+	+ Testing Servo completely
+	+ Testing Kinematic completely
+	+ Display Servo position completely
+	+ Have log view to track Hexapod
+	+ Add Android GUI

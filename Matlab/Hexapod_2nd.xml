@@ -1,0 +1,2598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="05/20/19||21:12:06" using="SimMechanics Link Version 4.6" from="SolidWorks 25.4.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Hexapod" uid="Hexapod" version="2847">
+<AssemblyFile name="Hexapod.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="Gia_do_vitme-A4-12" uid="Gia_do_vitme-A4-12" entityUid="Gia_do_vitme-A4*:*Default">
+<Transform>
+<Rotation>0.86602540378441173 -3.3193703739889127e-016 0.50000000000004641 0.50000000000004652 -2.0222430354883827e-016 -0.86602540378441162 3.8857805861880479e-016 0.99999999999999989 0</Rotation>
+<Translation>-0.097125310514943455 -0.17156262452172763 0.039830231882313299</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A2-11" uid="Gia_do_vitme-A2-11" entityUid="Gia_do_vitme-A2*:*Default">
+<Transform>
+<Rotation>0.86602540378444126 0 0.49999999999999567 0.49999999999999545 0 -0.86602540378444115 1.6653345369377348e-016 1.0000000000000002 -1.2547902761336281e-016</Rotation>
+<Translation>-0.21489514648641581 -0.26957928502010731 0.039830231882313293</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A3-12" uid="Gia_do_vitme-A3-12" entityUid="Gia_do_vitme-A3*:*Default">
+<Transform>
+<Rotation>-0.86602540378443882 0 -0.49999999999999983 -0.49999999999999983 2.2204460492503131e-016 0.86602540378443893 0 0.99999999999999989 -3.2510240327873554e-016</Rotation>
+<Translation>-0.29663367213929764 -0.33211570249086503 0.03983023188231332</Translation>
+</Transform>
+</Instance>
+<Instance name="vitme-19" uid="vitme-19" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>0.50000000000000011 0.8660254037844386 0 0 0 1 0.86602540378443849 -0.5 0</Rotation>
+<Translation>-0.047908693461351792 -0.59334749375549134 0.072830231882313329</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A4-8" uid="Gia_do_vitme-A4-8" entityUid="Gia_do_vitme-A4*:*Default">
+<Transform>
+<Rotation>-0.8660254037844386 -1.2302046749298177e-016 0.50000000000000044 0.50000000000000022 2.3127279055487051e-016 0.86602540378443849 0 1 0</Rotation>
+<Translation>-0.44704793979319341 -0.45310443877992618 0.039830231882313369</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A1-11" uid="Gia_do_vitme-A1-11" entityUid="Gia_do_vitme-A1*:*Default">
+<Transform>
+<Rotation>-0.86602540378443826 0 -0.50000000000000067 -0.50000000000000067 0 0.86602540378443826 0 1 0</Rotation>
+<Translation>-0.41353748270696344 -0.42963236298926044 0.039830231882313279</Translation>
+</Transform>
+</Instance>
+<Instance name="vitme-20" uid="vitme-20" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>0.49337951822631565 -0.86981414738711216 4.0590740915620232e-016 -5.8942391964788277e-016 1.3232449712965934e-016 1 -0.86981414738711216 -0.49337951822631565 -4.4740306747472211e-016</Rotation>
+<Translation>-0.073908693461351663 -0.48334749375549135 0.072830231882313468</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A3-11" uid="Gia_do_vitme-A3-11" entityUid="Gia_do_vitme-A3*:*Default">
+<Transform>
+<Rotation>-2.2880540748239573e-016 0 1 1 0 1.7329425625113776e-016 0 1 0</Rotation>
+<Translation>-0.067553125143796258 -0.36231956954615802 0.039830231882313293</Translation>
+</Transform>
+</Instance>
+<Instance name="Base-3" uid="Base-3" grounded="true" entityUid="Base*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.040143817607987992 -0.30525316834187666 0.034830231882313295</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A2-8" uid="Gia_do_vitme-A2-8" entityUid="Gia_do_vitme-A2*:*Default">
+<Transform>
+<Rotation>-0.86602540378443815 0 0.50000000000000089 0.50000000000000067 0 0.86602540378443826 0 1 0</Rotation>
+<Translation>-0.30414412922552653 -0.50558777828153145 0.039830231882313286</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A1-10" uid="Gia_do_vitme-A1-10" entityUid="Gia_do_vitme-A1*:*Default">
+<Transform>
+<Rotation>3.5253608252545676e-016 1.7010793132465412e-016 1 1 4.102176471163808e-016 -4.0804723375671429e-016 -4.102176471163809e-016 1 -1.7010793132465399e-016</Rotation>
+<Translation>-0.093553125143796087 -0.21231956954615799 0.039830231882313293</Translation>
+</Transform>
+</Instance>
+<Instance name="vitme-15" uid="vitme-15" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>0.250000000000001 0.43301270189221991 -0.86602540378443804 0.43301270189221991 0.749999999999999 0.500000000000001 0.86602540378443804 -0.500000000000001 0</Rotation>
+<Translation>-0.20250865645172511 -0.57160582400468818 0.072830231882313357</Translation>
+</Transform>
+</Instance>
+<Instance name="vitme-21" uid="vitme-21" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>-0.25000000000002393 -0.43301270189225927 -0.86602540378441173 0.43301270189220609 0.74999999999997657 -0.50000000000004652 0.86602540378443837 -0.50000000000000044 -4.9960036108132044e-016</Rotation>
+<Translation>-0.10551381122785335 -0.19908916350630448 0.072830231882303781</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A2-10" uid="Gia_do_vitme-A2-10" entityUid="Gia_do_vitme-A2*:*Default">
+<Transform>
+<Rotation>2.2262694070937354e-016 2.5013178814880591e-016 -1 -1 0 -2.2262694070937354e-016 0 1 2.5013178814880591e-016</Rotation>
+<Translation>-0.054264261778907363 -0.46537541796482462 0.039830231882313286</Translation>
+</Transform>
+</Instance>
+<Instance name="vitme-22" uid="vitme-22" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>-0.25000000000000039 -0.43301270189221952 -0.86602540378443826 0.43301270189221941 0.74999999999999956 -0.50000000000000033 0.86602540378443849 -0.50000000000000022 0</Rotation>
+<Translation>-0.18864263104793971 -0.27710582400468903 0.072830231882313287</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-1-v2-9" uid="Nut-1-v2-9" entityUid="Nut-1-v2*:*Default">
+<Transform>
+<Rotation>-0.50000000000000067 -2.5487249145171596e-016 0.86602540378443826 0.86602540378443826 -1.4365783698107117e-016 0.50000000000000067 0 1 2.9255497081430984e-016</Rotation>
+<Translation>-0.25706825687539614 -0.2865891634977803 0.041830231882312129</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-1-v2-7" uid="Nut-1-v2-7" entityUid="Nut-1-v2*:*Default">
+<Transform>
+<Rotation>-0.500000000000001 0 -0.86602540378443815 -0.86602540378443793 0 0.50000000000000111 0 1 0</Rotation>
+<Translation>-0.26746056173729937 -0.53410582400368289 0.041830231882311782</Translation>
+</Transform>
+</Instance>
+<Instance name="vitme-16" uid="vitme-16" entityUid="vitme*:*Default">
+<Transform>
+<Rotation>0.25000000000000022 0.43301270189221958 -0.8660254037844386 0.43301270189221952 0.74999999999999978 0.50000000000000033 0.8660254037844386 -0.50000000000000022 0</Rotation>
+<Translation>-0.093379836631651503 -0.60458916350629344 0.072830231882313329</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A3-9" uid="Gia_do_vitme-A3-9" entityUid="Gia_do_vitme-A3*:*Default">
+<Transform>
+<Rotation>0.86602540378443804 0 -0.50000000000000089 -0.500000000000001 0 -0.86602540378443826 0 1 0</Rotation>
+<Translation>-0.20825071480395857 -0.54560720922945061 0.039830231882313293</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-2-v2-6" uid="Nut-2-v2-6" entityUid="Nut-2-v2*:*Default">
+<Transform>
+<Rotation>0.50000000000000033 -1.5971016522061822e-016 0.86602540378443849 0.86602540378443849 0 -0.50000000000000033 0 1 1.6839272471169073e-016</Rotation>
+<Translation>-0.24493428228273395 -0.51708916351275613 0.041830231882315411</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A1-8" uid="Gia_do_vitme-A1-8" entityUid="Gia_do_vitme-A1*:*Default">
+<Transform>
+<Rotation>0.8660254037844386 1.1102230246251565e-016 -0.50000000000000033 -0.50000000000000033 0 -0.86602540378443849 0 1 0</Rotation>
+<Translation>-0.06534690423629283 -0.59809054873105538 0.039830231882313293</Translation>
+</Transform>
+</Instance>
+<Instance name="Gia_do_vitme-A4-11" uid="Gia_do_vitme-A4-11" entityUid="Gia_do_vitme-A4*:*Default">
+<Transform>
+<Rotation>-1.7035143015465148e-016 0 -0.99999999999999989 -1 0 1.7035143015465158e-016 0 0.99999999999999978 0</Rotation>
+<Translation>-0.028264261778907347 -0.61437541796482464 0.039830231882313313</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-2-v2-9" uid="Nut-2-v2-9" entityUid="Nut-2-v2*:*Default">
+<Transform>
+<Rotation>0.50000000000000022 -4.9383125565906405e-016 -0.86602540378443837 -0.86602540378443837 -3.6523705365499352e-016 -0.50000000000000022 0 1 -6.1028893941101406e-016</Rotation>
+<Translation>-0.25446056174993315 -0.31510582401298887 0.041830231882313308</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-1-v2-10" uid="Nut-1-v2-10" entityUid="Nut-1-v2*:*Default">
+<Transform>
+<Rotation>1.0000000000000002 0 0 0 0 -1 0 1.0000000000000002 0</Rotation>
+<Translation>-0.047908693461351702 -0.41934749376571695 0.041830231882313253</Translation>
+</Transform>
+</Instance>
+<Instance name="Nut-2-v2-8" uid="Nut-2-v2-8" entityUid="Nut-2-v2*:*Default">
+<Transform>
+<Rotation>-1 0 3.9139981228816653e-016 3.9139981228816634e-016 4.3792488077248557e-016 1 0 1 -4.3792488077248547e-016</Rotation>
+<Translation>-0.073908693461351677 -0.40834749374532525 0.041830231882313391</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-2-v2-13" uid="U-joint-2-v2-13" entityUid="U-joint-2-v2*:*Default">
+<Transform>
+<Rotation>0.84868198876634249 -0.19216480749709963 -0.49275913862982662 -0.4283453359183842 0.29679212773815478 -0.85348386400073517 0.31025659564394864 0.93540746184337331 0.16956923419997472</Rotation>
+<Translation>-0.23634580700862703 -0.50641810996954972 0.32167629820488586</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-1-27" uid="U-joint-1-27" entityUid="U-joint-1*:*Default">
+<Transform>
+<Rotation>0.86602540378443871 -0.49275913862982651 -0.084784617099987997 0.50000000000000022 0.85348386400073528 0.14685126451745117 5.3847023937025521e-016 -0.16956923419997505 0.98551827725965302</Rotation>
+<Translation>-0.2680544789507992 -0.29356046874720454 0.12337243945019449</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-1-28" uid="U-joint-1-28" entityUid="U-joint-1*:*Default">
+<Transform>
+<Rotation>0 0.99641789988133311 -0.0845657660999653 -1 0 4.3884252756113478e-016 3.9239020708409563e-016 0.084565766099965273 0.996417899881333</Rotation>
+<Translation>-0.04756289238500766 -0.4073474937453252 0.1233469975210337</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh200-17" uid="TrucChinh200-17" entityUid="TrucChinh200*:*Default">
+<Transform>
+<Rotation>0.99641789988133289 0.0027483874025596958 -0.084521093004997591 1.0061396160665476e-016 0.99947173546663459 0.032500000050977258 0.084565766099965078 -0.032383581796937982 0.99589152764441513</Rotation>
+<Translation>-0.047013661636307984 -0.42067249376622545 0.11687554489417853</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-1-26" uid="U-joint-1-26" entityUid="U-joint-1*:*Default">
+<Transform>
+<Rotation>0.86602540378443815 -0.49275913862982756 -0.08478461709998783 0.50000000000000089 0.85348386400073473 0.14685126451745104 2.4461768123987827e-016 -0.16956923419997491 0.98551827725965291</Rotation>
+<Translation>-0.25593012326869335 -0.28656046873039132 0.12337243945019345</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh200-14" uid="TrucChinh200-14" entityUid="TrucChinh200*:*Default">
+<Transform>
+<Rotation>-0.4927591386298274 -0.86252733906944656 -0.1150435598135346 0.85348386400073473 -0.50483345042243255 0.1292612905124994 -0.16956923419997505 -0.034493139786936036 0.98491446233694457</Rotation>
+<Translation>-0.25507643383041378 -0.28733910220971548 0.11697260879719806</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh200-16" uid="TrucChinh200-16" entityUid="TrucChinh200*:*Default">
+<Transform>
+<Rotation>0.99641789988133289 -0.0027483874025615918 -0.084521093004997744 0 0.99947173546663393 -0.032500000050998505 0.084565766099965287 0.032383581796959139 0.99589152764441446</Rotation>
+<Translation>-0.047013661636307394 -0.40702249374481597 0.11687554489417176</Translation>
+</Transform>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="0.59999999999999998"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="0.59999999999999998"/>
+<Specular r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="0.59999999999999998"/>
+<Emissive r="0" g="0" b="0" a="0.59999999999999998"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Instance>
+<Instance name="U-joint-1-25" uid="U-joint-1-25" entityUid="U-joint-1*:*Default">
+<Transform>
+<Rotation>0.86602540378443782 0.4927591386298279 0.084784617099987122 -0.50000000000000133 0.85348386400073462 0.14685126451745095 3.3047308013394687e-016 -0.16956923419997449 0.98551827725965302</Rotation>
+<Translation>-0.26859869534400194 -0.53407712923629447 0.12337243945019458</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh200-13" uid="TrucChinh200-13" entityUid="TrucChinh200*:*Default">
+<Transform>
+<Rotation>0.49275913862982768 -0.86281241322009206 0.1128856540491818 0.85348386400073484 0.50450853383584304 0.13052368818411328 -0.16956923419997433 0.03202934404775401 0.9849976629072299</Rotation>
+<Translation>-0.26943080572463884 -0.53486838669232972 0.11697177679151999</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh200-15" uid="TrucChinh200-15" entityUid="TrucChinh200*:*Default">
+<Transform>
+<Rotation>-0.49275913862982768 -0.86846226228070111 -0.054421781403009462 0.85348386400073462 -0.49455386188151917 0.16426129059656983 -0.16956923419997488 0.034493139786945723 0.98491446233694457</Rotation>
+<Translation>-0.26780700729662449 -0.29468910222736949 0.1169726087971977</Translation>
+</Transform>
+</Instance>
+<Instance name="TrucChinh200-18" uid="TrucChinh200-18" entityUid="TrucChinh200*:*Default">
+<Transform>
+<Rotation>0.49275913862982751 -0.86832341333792418 0.056594002738512686 0.85348386400073473 0.49496320163124102 0.16302368822145705 -0.16956923419997463 -0.032029344047728774 0.98499766290723056</Rotation>
+<Translation>-0.25760955894939846 -0.54169338670017153 0.11697177679151985</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-2-v2-14" uid="U-joint-2-v2-14" entityUid="U-joint-2-v2*:*Default">
+<Transform>
+<Rotation>0.84251284101112289 0.21762477806572619 0.4927591386298279 0.4192171765565601 0.3095516964423255 -0.85348386400073462 -0.33827366378616069 0.92564420983524875 0.16956923419997458</Rotation>
+<Translation>-0.27712122878324924 -0.25339389220338665 0.31725224494814203</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-1-30" uid="U-joint-1-30" entityUid="U-joint-1*:*Default">
+<Transform>
+<Rotation>0.86602540378443782 0.49275913862982779 0.084784617099987261 -0.500000000000001 0.85348386400073484 0.14685126451745112 2.9521255863123423e-016 -0.16956923419997466 0.98551827725965291</Rotation>
+<Translation>-0.25734036508186814 -0.540577129243763 0.12337243945019453</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-1-29" uid="U-joint-1-29" entityUid="U-joint-1*:*Default">
+<Transform>
+<Rotation>0 0.996417899881333 -0.084565766099964995 -0.99999999999999989 0 0 0 0.084565766099965009 0.99641789988133289</Rotation>
+<Translation>-0.04756289238500775 -0.42034749376571706 0.12334699752103363</Translation>
+</Transform>
+</Instance>
+<Instance name="u-joint-3-v2-10" uid="u-joint-3-v2-10" entityUid="u-joint-3-v2*:*Default">
+<Transform>
+<Rotation>0.004748246994822479 0.25823600624961918 0.96607019373683312 -0.99842242456687602 0.055274636366185959 -0.0098679631427358774 -0.055947442054812835 -0.96449928960618336 0.25809107709622736</Rotation>
+<Translation>-0.072612467104879799 -0.41431666996425626 0.3441020221147516</Translation>
+</Transform>
+</Instance>
+<Instance name="U-joint-2-v2-12" uid="U-joint-2-v2-12" entityUid="U-joint-2-v2*:*Default">
+<Transform>
+<Rotation>-0.0047482469948224859 -0.084432357224882154 0.996417899881333 0.99842242456687613 -0.056148571860737961 2.6367796834847468e-016 0.055947442054812502 0.99484597548135523 0.084565766099964773</Rotation>
+<Translation>-0.070352257461342577 -0.40681308527370946 0.32241730008659225</Translation>
+</Transform>
+</Instance>
+<Instance name="u-joint-3-v2-11" uid="u-joint-3-v2-11" entityUid="u-joint-3-v2*:*Default">
+<Transform>
+<Rotation>0.84251284101112278 -0.10353634189418102 -0.52863251757580865 0.41921717655655988 -0.49023957002233209 0.76414797183808891 -0.33827366378616081 -0.86541631016031251 -0.36962891999571285</Rotation>
+<Translation>-0.27616783898475489 -0.25310154938886686 0.34195228616997364</Translation>
+</Transform>
+</Instance>
+<Instance name="u-joint-3-v2-9" uid="u-joint-3-v2-9" entityUid="u-joint-3-v2*:*Default">
+<Transform>
+<Rotation>0.84868198876634215 0.20860317042516277 0.48602839344237569 -0.42834533591838425 -0.26796496148423893 0.86296874370611887 0.31025659564394886 -0.94057402510664778 -0.13806284132273389</Rotation>
+<Translation>-0.25169978213227018 -0.50449529413472993 0.342383984247707</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric71">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.92466926420283246 1.7343019346297408 0.71552125776533837</Position>
+<Axis>-0.91193148134991797 -0.00061056643989234086 0.4103420530868937</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90805155660356018 1.73429080855857 0.72299873210780452</Position>
+<Axis>0.91193148134991753 0.00061056643989293175 -0.41034205308689436</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91798672326633735 1.7358049956241284 0.72287650706946582</Position>
+<Axis>-0.91193148134991797 -0.00061056643989234086 0.4103420530868937</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91693165641726682 1.7382616984061703 0.72065726415377362</Position>
+<Axis>0.91193148134991786 0.00061056643989233458 -0.41034205308689348</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric72">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071864 1.5366798644167288 0.49769399773465084</Position>
+<Axis>2.1350442781253009e-015 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071742 1.553933269877682 0.49769399773465073</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric73">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071762 1.704933269877682 0.51969399773465086</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071773 1.9321866753386336 0.51969399773465086</Position>
+<Axis>-3.8549410577262371e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric74">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071153 1.6803017870767853 0.51969399773465685</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071309 1.5539332698776807 0.51969399773465452</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric75">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071309 1.5539332698776807 0.47569399773465454</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071153 1.6803017870767853 0.47569399773465681</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric76">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90785834051787462 1.7465818622730582 0.69307256424084285</Position>
+<Axis>0.37459547764573609 -0.40945529931951014 0.83188015121562653</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84979604148278476 1.8100474336675825 0.56413114080242144</Position>
+<Axis>0.3745954776457367 -0.40945529931951052 0.83188015121562597</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric77">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83860473630428722 1.8161892631573753 0.55416217706774062</Position>
+<Axis>0.9118191737947352 1.4693514417338234e-015 -0.41059200467165258</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85184666643163842 1.8161892631573766 0.54819933838988411</Position>
+<Axis>-0.9118191737947362 1.0591870290798216e-016 0.4105920046716508</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric78">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90787202455209226 1.7220145168383927 0.69306642035422372</Position>
+<Axis>-0.37413934317197456 -0.40945621516940234 -0.83208494743625294</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90787202455208649 1.7220145168383947 0.69306642035422406</Position>
+<Axis>-0.37413934317197423 -0.4094562151694045 -0.83208494743625205</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance31">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.8452844231900325 1.8146806385144785 0.54680547448833072</Position>
+<Axis>0.9118191737947352 1.4693514417338234e-015 -0.41059200467165258</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84839522981452387 1.8261892631573766 0.55359200002821585</Position>
+<Axis>-0.9118191737947362 0 0.4105920046716508</Axis>
+</ConstraintGeometry>
+</Distance>
+<Distance name="Distance32">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.92777570630087591 1.7102527599675494 0.72253844876684648</Position>
+<Axis>-0.91193148134991753 -0.00061056643989293175 0.41034205308689436</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91396045602832432 1.7259835375773691 0.69198112015024971</Position>
+<Axis>0.91193148134991786 0.00061056643989233458 -0.41034205308689348</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric79">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85728795103569944 1.8018583276811926 0.5807687438267336</Position>
+<Axis>-0.37459547764573853 0.40945529931951063 -0.83188015121562497</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84979604148278476 1.8100474336675825 0.56413114080242144</Position>
+<Axis>0.3745954776457367 -0.40945529931951052 0.83188015121562597</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric80">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91650272322857229 1.7708758561986275 0.71231972101819607</Position>
+<Axis>0.069883936336560384 -0.98562116213185968 0.15384134749783707</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91670888084076407 1.7679682737703393 0.71277355299331402</Position>
+<Axis>0.069883936336560204 -0.98562116213185957 0.15384134749783732</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance33">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91555154886049406 1.7673991077353743 0.72987667062467254</Position>
+<Axis>-0.069883936336560204 0.98562116213185957 -0.15384134749783732</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.93201700423047662 1.7655515717327837 0.71023538779709017</Position>
+<Axis>0.069883936336560384 -0.98562116213185968 0.15384134749783707</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric81">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85362181979215901 1.6626433656388306 0.5724141029759594</Position>
+<Axis>0.37413934317197578 0.40945621516940517 0.83208494743625083</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90787202455209226 1.7220145168383927 0.69306642035422372</Position>
+<Axis>-0.37413934317197456 -0.40945621516940234 -0.83208494743625294</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric82">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85977308524461604 1.6524069602595954 0.54464041149921516</Position>
+<Axis>-0.91204406069155275 1.1934897514720435e-015 0.41009222299046783</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85184858050469148 1.6524069602595961 0.54820359216663994</Position>
+<Axis>-0.91204406069155375 -1.4617323725456577e-016 0.41009222299046516</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric83">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071153 1.6726147813082763 0.49769399773465678</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071742 1.553933269877682 0.49769399773465073</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric84">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071153 1.6865182300968171 0.55169399773465677</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071109 1.675406960259596 0.55169399773465744</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance34">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84638579479390663 1.6484416023063382 0.54900577410624851</Position>
+<Axis>0.91204406069155275 -1.1934897514720435e-015 -0.41009222299046783</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84839418897235608 1.6624069602595961 0.55359436144465801</Position>
+<Axis>-0.91204406069155375 -2.6078889548874769e-016 0.41009222299046516</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric85">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90805155660356018 1.73429080855857 0.72299873210780452</Position>
+<Axis>0.91193148134991753 0.00061056643989293175 -0.41034205308689436</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91078735104761011 1.7342926402578895 0.72176770594854545</Position>
+<Axis>0.91193148134991786 0.00061056643989233458 -0.41034205308689348</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84068741665951252 1.673406960259596 0.55705964072892744</Position>
+<Axis>-3.2348347153575318e-016 1 1.2553424424285336e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85508592740071154 1.6735069602595962 0.55669399773465678</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric86">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071773 1.9321866753386336 0.49769399773465084</Position>
+<Axis>-3.8549410577262371e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071817 1.664933269877682 0.49769399773465078</Position>
+<Axis>-1.2040867266550064e-016 1 -1.3686466458963709e-016</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident96">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.9153502500707893 1.7383927562866681 0.70971016726515535</Position>
+<Axis>-0.37459547764573609 0.40945529931951014 -0.83188015121562653</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.91535025007078863 1.7383927562866681 0.70971016726515601</Position>
+<Axis>0.3745954776457367 -0.40945529931951052 0.83188015121562597</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident97">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85362181979215901 1.6626433656388306 0.5724141029759594</Position>
+<Axis>0.37413934317197578 0.40945621516940517 0.83208494743625083</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.85362181979215601 1.6626433656388293 0.57241410297596707</Position>
+<Axis>-0.37413934317197456 -0.40945621516940234 -0.83208494743625294</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident98">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84979604148278465 1.8100474336675827 0.5641311408024211</Position>
+<Axis>0.37459547764573853 -0.40945529931951063 0.83188015121562497</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84979604148278476 1.8100474336675825 0.56413114080242144</Position>
+<Axis>-0.3745954776457367 0.40945529931951052 -0.83188015121562597</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident99">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83108592740071874 1.5539332698776807 0.52669399773465075</Position>
+<Axis>-2.1350442781253009e-015 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071742 1.553933269877682 0.49769399773465073</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident100">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071773 1.914933269877682 0.51969399773465086</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83108592740071774 1.9149332698776818 0.52669399773465075</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident101">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83108592740071774 1.9149332698776818 0.52669399773465075</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071751 1.9149332698776818 0.4756939977346506</Position>
+<Axis>3.8549410577270925e-016 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071309 1.5539332698776807 0.47569399773465454</Position>
+<Axis>-3.8549410577262371e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83108592740071874 1.5539332698776807 0.52669399773465075</Position>
+<Axis>-2.1350442781253009e-015 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident103">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83108592740071874 1.5539332698776807 0.52669399773465075</Position>
+<Axis>-2.1350442781253009e-015 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.84408592740071309 1.5539332698776807 0.51969399773465452</Position>
+<Axis>-3.8549410577262371e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90787202455209226 1.7220145168383927 0.69306642035422372</Position>
+<Axis>0.37413934317197456 0.40945621516940234 0.83208494743625294</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.90787202455208649 1.7220145168383947 0.69306642035422406</Position>
+<Axis>-0.37413934317197423 -0.4094562151694045 -0.83208494743625205</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.83108592740071774 1.9149332698776818 0.52669399773465075</Position>
+<Axis>3.8549410577262371e-016 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071817 1.914933269877682 0.49769399773465073</Position>
+<Axis>-1.2040867266550064e-016 1 -1.3686466458963709e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric90">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071773 1.9321866753386336 0.47569399773465082</Position>
+<Axis>-3.8549410577262371e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Hexapod</Uid>
+</InstancePath>
+<Position>0.81808592740071739 1.7049332698776818 0.4756939977346506</Position>
+<Axis>3.8549410577270925e-016 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident106">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.14942529279565644 -0.25881219905793251 0.0049999999999999975</Position>
+<Axis>-0.50000000000000033 -0.86602540378443849 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-8</Uid>
+</InstancePath>
+<Position>-0.037027924209333277 0.0049999999999999975 0.032644431682444464</Position>
+<Axis>0 1.9428902930940252e-016 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.21774974457148358 0.12571787364431772 0.0049999999999999975</Position>
+<Axis>-0.86602540378443971 0.49999999999999828 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-8</Uid>
+</InstancePath>
+<Position>-0.027027924209333337 0.061999999999999986 0.032644431682444464</Position>
+<Axis>-1 -1.8485918456668756e-016 2.2204460492503131e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident108">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident109">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.16242529279565662 -0.28132885955632769 0.0049999999999999975</Position>
+<Axis>0.50000000000000089 0.86602540378443815 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-9</Uid>
+</InstancePath>
+<Position>-0.037027924209333263 0.0049999999999999975 0.032644431682444575</Position>
+<Axis>2.2204460492503131e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.040214536795672828 0.023217873644317821 0.0049999999999999975</Position>
+<Axis>-0.8660254037844386 0.50000000000000011 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-9</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062000000000000006 0.032644431682444575</Position>
+<Axis>1 0 2.2204460492503131e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident111">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric91">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-9</Uid>
+</InstancePath>
+<Position>-0.0037745187483815279 0.033000000000000008 0.019644431682444563</Position>
+<Axis>-1 0 -2.2204460492503131e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-15</Uid>
+</InstancePath>
+<Position>0 0 0.24999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident112">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-8</Uid>
+</InstancePath>
+<Position>-0.021027924209333276 0.061999999999999986 0.032644431682444464</Position>
+<Axis>1 1.8485918456668756e-016 -2.2204460492503131e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-15</Uid>
+</InstancePath>
+<Position>0 0 0.24999999999999992</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric92">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-15</Uid>
+</InstancePath>
+<Position>0 0 0.24999999999999992</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-7</Uid>
+</InstancePath>
+<Position>0 0.030999999999999993 -0.01920782104868022</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident115">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.1364252927956566 -0.236295538559537 0.0049999999999999975</Position>
+<Axis>-0.50000000000000089 -0.86602540378443815 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-8</Uid>
+</InstancePath>
+<Position>-0.037027924209333291 0.0050000000000000044 0.032644431682444464</Position>
+<Axis>-1.6653345369377348e-016 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident116">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident117">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.087845934003816878 0.050717873644317846 0.0049999999999999975</Position>
+<Axis>-0.86602540378443849 0.50000000000000044 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-8</Uid>
+</InstancePath>
+<Position>-0.027027924209333309 0.062 0.032644431682444464</Position>
+<Axis>-1 0 1.6653345369377348e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident118">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.14942529279565644 -0.25881219905793251 0.0049999999999999975</Position>
+<Axis>0.50000000000000033 0.86602540378443849 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-8</Uid>
+</InstancePath>
+<Position>-0.037027924209333318 0.0049999999999999906 0.032644431682444464</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident119">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1.5165928555043602e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident120">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0.0896892737719929 -0.051782126355682134 0.0049999999999999975</Position>
+<Axis>-0.8660254037844386 0.50000000000000011 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-8</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062 0.032644431682444464</Position>
+<Axis>1.0000000000000002 1.5165928555043602e-016 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric93">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-8</Uid>
+</InstancePath>
+<Position>-0.0037745187483815557 0.033000000000000002 0.019644431682444452</Position>
+<Axis>-1.0000000000000002 -1.5165928555043602e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-16</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000011</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident121">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-8</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062 0.032644431682444464</Position>
+<Axis>1.0000000000000002 1.5165928555043602e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-16</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric94">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-16</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000011</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2-v2-6</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-016 0.031000000000000007 -0.01920782104868015</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2-v2-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident129">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.02076487585336366 0 0.0049999999999999975</Position>
+<Axis>-1 3.8549410577262381e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-10</Uid>
+</InstancePath>
+<Position>-0.037027924209333318 0.0050000000000000044 0.032644431682444436</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident130">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident131">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0.07190567458638536 0.0049999999999999975</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-10</Uid>
+</InstancePath>
+<Position>-0.021027924209333332 0.062 0.032644431682444436</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident132">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.055812860982524193 0.096670710937510507 0.0049999999999999975</Position>
+<Axis>0.5 -0.86602540378443871 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-11</Uid>
+</InstancePath>
+<Position>-0.037027924209333207 0.0049999999999999975 0.032644431682444464</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident133">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident134">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.31569230340353738 -0.18226503635112484 0.0049999999999999975</Position>
+<Axis>0.86602540378443937 0.49999999999999895 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-11</Uid>
+</InstancePath>
+<Position>-0.021027924209333193 0.062 0.032644431682444436</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident135">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.068812860982530616 0.11918737143590247 0.0049999999999999975</Position>
+<Axis>0.50000000000004596 -0.86602540378441228 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-12</Uid>
+</InstancePath>
+<Position>-0.037027924209333291 0.0049999999999999975 0.0066444316824444266</Position>
+<Axis>0 0 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident136">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident137">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.0082532850600612884 -0.0047650363511251292 0.0049999999999999975</Position>
+<Axis>0.86602540378443849 0.50000000000000056 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-12</Uid>
+</InstancePath>
+<Position>-0.027027924209333337 0.061999999999999979 0.032644431682444436</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident138">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.02076487585336366 0 0.0049999999999999975</Position>
+<Axis>1 -3.8549410577262381e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-11</Uid>
+</InstancePath>
+<Position>-0.037027924209333318 0.0049999999999999975 0.032644431682444422</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident139">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999978 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident140">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 -0.28809432541361468 0.0049999999999999975</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-11</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.061999999999999965 0.032644431682444422</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident141">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.046764875853363808 0 0.0049999999999999975</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-10</Uid>
+</InstancePath>
+<Position>-0.037027924209333318 0.0049999999999999975 0.032644431682444436</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident142">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident143">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 -0.13309432541361466 0.0049999999999999975</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-10</Uid>
+</InstancePath>
+<Position>-0.027027924209333309 0.062 0.03264443168244445</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident144">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.042812860982523349 0.074154050439114522 0.0049999999999999975</Position>
+<Axis>-0.49999999999999556 0.86602540378444126 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-11</Uid>
+</InstancePath>
+<Position>-0.037027924209333263 0.0049999999999999906 0.032644431682444408</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident145">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident146">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.13382696860879784 -0.077265036351128247 0.0049999999999999975</Position>
+<Axis>-0.86602540378441839 -0.50000000000003519 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A2-11</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062 0.032644431682444464</Position>
+<Axis>1 1.7297415742991971e-016 2.2204460492503128e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident147">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0.0052351241466361831 0 0.0049999999999999975</Position>
+<Axis>-1 -1.7347234759768059e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-11</Uid>
+</InstancePath>
+<Position>-0.037027924209333263 0.0049999999999999975 0.032644431682444443</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident148">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident149">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 -0.078094325413614663 0.0049999999999999975</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-11</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.062000000000000006 0.032644431682444443</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident150">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.068812860982524204 0.11918737143590591 0.0049999999999999975</Position>
+<Axis>0.50000000000000011 -0.8660254037844386 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-12</Uid>
+</InstancePath>
+<Position>-0.037027924209333374 0.0049999999999999975 0.032644431682444422</Position>
+<Axis>0 -1.0505055902475012e-016 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident151">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -0.99999999999999989 1.0505055902475012e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident153">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>-0.18578849283587118 -0.10726503635112522 0.0049999999999999975</Position>
+<Axis>0.86602540378443849 0.50000000000000044 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A3-12</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.061999999999999972 0.03264443168244438</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric99">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-11</Uid>
+</InstancePath>
+<Position>-0.0037745187483815279 0.032999999999999981 0.019644431682444428</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-19</Uid>
+</InstancePath>
+<Position>0 0 0.25</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident154">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-11</Uid>
+</InstancePath>
+<Position>-0.021027924209333304 0.061999999999999965 0.032644431682444422</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-19</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric100">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-10</Uid>
+</InstancePath>
+<Position>-0.0037745187483815279 0.033000000000000015 0.019644431682444424</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-20</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident155">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-10</Uid>
+</InstancePath>
+<Position>-0.021027924209333332 0.062 0.032644431682444436</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-20</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric101">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-12</Uid>
+</InstancePath>
+<Position>-0.0037745187483815834 0.032999999999999995 0.019644431682444424</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-21</Uid>
+</InstancePath>
+<Position>0 0 0.25</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident156">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A4-12</Uid>
+</InstancePath>
+<Position>-0.021027924209333332 0.061999999999999979 0.032644431682444408</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-21</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric102">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-22</Uid>
+</InstancePath>
+<Position>0 0 0.24999999999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-11</Uid>
+</InstancePath>
+<Position>-0.0037745187483815279 0.032999999999999988 0.019644431682444452</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident157">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Gia_do_vitme-A1-11</Uid>
+</InstancePath>
+<Position>-0.021027924209333193 0.062 0.032644431682444436</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>vitme-22</Uid>
+</InstancePath>
+<Position>0 0 0.24999999999999989</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric103">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-21</Uid>
+</InstancePath>
+<Position>0 0 0.25</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-9</Uid>
+</InstancePath>
+<Position>0 0.031 -0.019207821048680185</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric104">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-19</Uid>
+</InstancePath>
+<Position>0 0 0.25</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-10</Uid>
+</InstancePath>
+<Position>0 0.031000000000000007 -0.019207821048680185</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric105">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-20</Uid>
+</InstancePath>
+<Position>0 0 0.25000000000000006</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2-v2-8</Uid>
+</InstancePath>
+<Position>0 0.031000000000000007 -0.01920782104868024</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2-v2-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Concentric name="Concentric106">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>vitme-22</Uid>
+</InstancePath>
+<Position>0 0 0.24999999999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2-v2-9</Uid>
+</InstancePath>
+<Position>0 0.031 -0.019207821048680296</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Parallel name="Parallel6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Base-3</Uid>
+</InstancePath>
+<Position>0 0 0.0049999999999999975</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2-v2-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Distance name="Distance58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-25</Uid>
+</InstancePath>
+<Position>0.020999999999999991 -0.0053499999999999659 0.0069999999999999923</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-7</Uid>
+</InstancePath>
+<Position>0.01100000000000001 0.089999999999999997 -0.020100000000000014</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric150">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-7</Uid>
+</InstancePath>
+<Position>-1.1102230246251565e-016 0.084999999999999992 -0.033111269837220833</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-25</Uid>
+</InstancePath>
+<Position>-0.022999999999999965 -4.9999999999994493e-005 0.0034999999999999892</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric151">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-25</Uid>
+</InstancePath>
+<Position>0 0.0084612698372207307 0.0035000000000000031</Position>
+<Axis>1.1154921835327801e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-13</Uid>
+</InstancePath>
+<Position>0.21690000000000009 0 0.010000000000000037</Position>
+<Axis>-1.0000000000000002 -1.3704315460216776e-016 -1.6653345369377348e-016</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident180">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-25</Uid>
+</InstancePath>
+<Position>-0.0099999999999999811 0.0030999999999999917 0.0069999999999999646</Position>
+<Axis>2.2257152081579366e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-13</Uid>
+</InstancePath>
+<Position>0.0031000000000001027 -0.0031000000000000194 0.22000000000000003</Position>
+<Axis>1.0000000000000002 1.3704315460216776e-016 1.6653345369377348e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident182">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-14</Uid>
+</InstancePath>
+<Position>0.0030999999999999917 -0.0031000000000000472 0.21999999999999992</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-26</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0030999999999999917 0.0070000000000000201</Position>
+<Axis>4.8556884272968231e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric152">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-14</Uid>
+</InstancePath>
+<Position>0.21690000000000004 0 0.009999999999999995</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-26</Uid>
+</InstancePath>
+<Position>0 0.0084612698372208139 0.0034999999999999892</Position>
+<Axis>4.3005769149842453e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident183">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-15</Uid>
+</InstancePath>
+<Position>0.0031000000000000472 -0.0030999999999999917 0.22000000000000014</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-27</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0031000000000000472 0.0070000000000000201</Position>
+<Axis>2.5784143982326489e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric153">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-15</Uid>
+</InstancePath>
+<Position>0.21690000000000009 0 0.009999999999999995</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-27</Uid>
+</InstancePath>
+<Position>0 0.0084612698372208139 0.003500000000000017</Position>
+<Axis>1.4681913736074926e-016 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident184">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-16</Uid>
+</InstancePath>
+<Position>0.0030999999999999917 -0.0030999999999999917 0.21999999999999995</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-28</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0031000000000000055 0.0070000000000000062</Position>
+<Axis>2.3824749673644475e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric154">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-16</Uid>
+</InstancePath>
+<Position>0.21690000000000004 0 0.0099999999999999811</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-28</Uid>
+</InstancePath>
+<Position>0 0.0084612698372208139 0.0035000000000000031</Position>
+<Axis>1.2363183850226283e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident185">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-17</Uid>
+</InstancePath>
+<Position>0.0031000000000000125 -0.0030999999999999361 0.21999999999999992</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-29</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0030999999999999986 0.0070000000000000062</Position>
+<Axis>2.3852447794681093e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric155">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-17</Uid>
+</InstancePath>
+<Position>0.21689999999999998 0 0.0099999999999999811</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-29</Uid>
+</InstancePath>
+<Position>0 0.008461269837220807 0.0035000000000000031</Position>
+<Axis>1.2390881971262906e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident186">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-18</Uid>
+</InstancePath>
+<Position>0.0031000000000001027 -0.0031000000000000541 0.21999999999999995</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-30</Uid>
+</InstancePath>
+<Position>-0.0099999999999999742 0.0030999999999999917 0.0069999999999999923</Position>
+<Axis>1.6108126995582915e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric156">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-18</Uid>
+</InstancePath>
+<Position>0.21690000000000004 0 0.0099999999999999811</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-30</Uid>
+</InstancePath>
+<Position>0 0.0084612698372208417 0.0035000000000000031</Position>
+<Axis>0 -1.0000000000000004 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric157">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2-v2-6</Uid>
+</InstancePath>
+<Position>-0.026000000000000023 0.084999999999999992 0.035111269837220842</Position>
+<Axis>-1.6653345369377348e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-30</Uid>
+</InstancePath>
+<Position>-0.022999999999999989 -4.9999999999994493e-005 0.0035000000000000031</Position>
+<Axis>0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-30</Uid>
+</InstancePath>
+<Position>0.020999999999999998 -0.0053499999999999659 0.0069999999999999923</Position>
+<Axis>0.99999999999999978 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2-v2-6</Uid>
+</InstancePath>
+<Position>-0.015000000000000013 0.089999999999999997 0.022099999999999974</Position>
+<Axis>-2.2204460492503131e-016 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric159">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-10</Uid>
+</InstancePath>
+<Position>0 0.085000000000000048 -0.033111269837220791</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-29</Uid>
+</InstancePath>
+<Position>-0.02300000000000002 -5.0000000000008371e-005 0.0035000000000000031</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-29</Uid>
+</InstancePath>
+<Position>0.021000000000000019 -0.0053500000000000075 0.0070000000000000062</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-10</Uid>
+</InstancePath>
+<Position>0.01100000000000001 0.090000000000000052 0.022100000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric160">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2-v2-8</Uid>
+</InstancePath>
+<Position>-0.025999999999999988 0.084999999999999992 0.035111269837220849</Position>
+<Axis>-1.3344026738283109e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-28</Uid>
+</InstancePath>
+<Position>-0.02300000000000002 -4.9999999999994493e-005 0.0034999999999999754</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-28</Uid>
+</InstancePath>
+<Position>0.021000000000000019 -0.0053500000000000075 0.0070000000000000062</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2-v2-8</Uid>
+</InstancePath>
+<Position>-0.014999999999999986 0.089999999999999997 -0.020099999999999951</Position>
+<Axis>1.5770213417970958e-016 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric162">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-1-v2-9</Uid>
+</InstancePath>
+<Position>0 0.084999999999999978 -0.033111269837220736</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-26</Uid>
+</InstancePath>
+<Position>-0.02300000000000002 -4.9999999999966738e-005 0.003500000000000017</Position>
+<Axis>1 -2.6352423780465105e-016 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-26</Uid>
+</InstancePath>
+<Position>0.021000000000000019 -0.0053499999999999936 0.0070000000000000062</Position>
+<Axis>1 -2.6352423780465105e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-1-v2-9</Uid>
+</InstancePath>
+<Position>0.010999999999999996 0.090000000000000011 0.022100000000000064</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric163">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Nut-2-v2-9</Uid>
+</InstancePath>
+<Position>-0.026000000000000009 0.084999999999999964 0.035111269837220738</Position>
+<Axis>-1.6653345369377353e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-1-27</Uid>
+</InstancePath>
+<Position>-0.02300000000000002 -4.9999999999966738e-005 0.0035000000000000031</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-1-27</Uid>
+</InstancePath>
+<Position>-0.020999999999999963 -0.0053499999999999659 0.0070000000000000201</Position>
+<Axis>-1 -3.0659339250874561e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Nut-2-v2-9</Uid>
+</InstancePath>
+<Position>-0.014999999999999986 0.089999999999999997 0.022099999999999953</Position>
+<Axis>-2.7755575615628918e-016 0 -1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric165">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-17</Uid>
+</InstancePath>
+<Position>0.21690000000000001 0 0.20999999999999991</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-12</Uid>
+</InstancePath>
+<Position>-0.0068486928098270283 0.0035000000000000031 -0.0062380711924384935</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric166">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-13</Uid>
+</InstancePath>
+<Position>0.21690000000000015 0 0.21000000000000005</Position>
+<Axis>-1.0000000000000002 -1.3704315460216776e-016 -1.6653345369377348e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-13</Uid>
+</InstancePath>
+<Position>-0.0068486928098269589 0.0035000000000000586 -0.0062380711924384658</Position>
+<Axis>-1.3183898417423734e-016 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance66">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-2-v2-14</Uid>
+</InstancePath>
+<Position>-0.031848692809826995 0.0070000000000000062 -0.0001768013552176928</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-15</Uid>
+</InstancePath>
+<Position>0.0031000000000000472 -0.0030999999999999917 0.22000000000000014</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric168">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-13</Uid>
+</InstancePath>
+<Position>0.03026257702739385 0.0035000000000000031 0.005873198644782196</Position>
+<Axis>-1.0000000000000002 0 1.3183898417423734e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>u-joint-3-v2-9</Uid>
+</InstancePath>
+<Position>-0.033530387484279639 0.019500000000000045 0.0029097426470587884</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>u-joint-3-v2-9</Uid>
+</InstancePath>
+<Position>0.031580882352941153 0.0030000000000000304 0.006409742647058736</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-2-v2-13</Uid>
+</InstancePath>
+<Position>0.024251307190173071 0.0070000000000000062 0.020873198644782209</Position>
+<Axis>-1.0000000000000002 0 1.3183898417423734e-016</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric169">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-12</Uid>
+</InstancePath>
+<Position>0.030262577027393822 0.0035000000000000031 0.0058731986447823278</Position>
+<Axis>-1 1.0408340855860843e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>u-joint-3-v2-10</Uid>
+</InstancePath>
+<Position>-0.033530387484279556 0.019499999999999962 0.00290974264705883</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance68">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>u-joint-3-v2-10</Uid>
+</InstancePath>
+<Position>-0.030419117647058791 0.0029999999999999472 0.0064097426470588401</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-2-v2-12</Uid>
+</InstancePath>
+<Position>0.024251307190173044 0.0070000000000000062 0.020873198644782313</Position>
+<Axis>-1 1.0408340855860843e-016 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric170">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-14</Uid>
+</InstancePath>
+<Position>0.030262577027393878 0.0034999999999999754 0.0058731986447823348</Position>
+<Axis>-1.0000000000000002 1.1102230246251565e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>u-joint-3-v2-11</Uid>
+</InstancePath>
+<Position>-0.033530387484279611 0.01949999999999999 0.0029097426470588161</Position>
+<Axis>1.0000000000000002 0 1.3877787807814457e-016</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-2-v2-14</Uid>
+</InstancePath>
+<Position>-0.037948692809826989 0.0070000000000000062 0.020873198644782348</Position>
+<Axis>1.0000000000000002 -1.1102230246251565e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>u-joint-3-v2-11</Uid>
+</InstancePath>
+<Position>-0.030419117647058735 0.0029999999999999749 0.0064097426470587637</Position>
+<Axis>-1.0000000000000002 0 -1.3877787807814457e-016</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric171">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-18</Uid>
+</InstancePath>
+<Position>0.21690000000000009 0 0.20999999999999994</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-13</Uid>
+</InstancePath>
+<Position>-0.0068486928098269589 0.0035000000000000586 -0.0062380711924384658</Position>
+<Axis>-1.3183898417423734e-016 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-2-v2-13</Uid>
+</InstancePath>
+<Position>-0.031848692809827037 0.0070000000000000062 0.011923198644782196</Position>
+<Axis>1.3183898417423734e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-18</Uid>
+</InstancePath>
+<Position>-0.0030999999999999917 -0.0031000000000000125 0.22</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric172">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-15</Uid>
+</InstancePath>
+<Position>0.21690000000000004 0 0.21000000000000013</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-14</Uid>
+</InstancePath>
+<Position>-0.0068486928098269173 0.0034999999999999476 -0.0062380711924384935</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric173">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-14</Uid>
+</InstancePath>
+<Position>0.21690000000000001 -1.1102230246251565e-016 0.20999999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-14</Uid>
+</InstancePath>
+<Position>-0.0068486928098269173 0.0034999999999999476 -0.0062380711924384935</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric174">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TrucChinh200-16</Uid>
+</InstancePath>
+<Position>0.21690000000000001 0 0.20999999999999999</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>U-joint-2-v2-12</Uid>
+</InstancePath>
+<Position>-0.0068486928098270283 0.0035000000000000031 -0.0062380711924384935</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TrucChinh200-16</Uid>
+</InstancePath>
+<Position>-0.0030999999999999986 -0.0031000000000000472 0.22</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>U-joint-2-v2-12</Uid>
+</InstancePath>
+<Position>-0.031848692809827051 0.0070000000000000617 -0.00017680135521767198</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Base" uid="Base*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Base.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.63082604945409093</Mass>
+<CenterOfMass>-0.15066868642102949 -0.10809432541361462 0.0025000000000000001</CenterOfMass>
+<Inertia>0.0073306379430536665 0.0073306379430536682 0.014658647444234608 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="1" a="1"/>
+<Diffuse r="0" g="1" b="1" a="1"/>
+<Specular r="0" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gia_do_vitme-A1" uid="Gia_do_vitme-A1*:*Default" version="286">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gia_do_vitme-A1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013121105162179156</Mass>
+<CenterOfMass>-0.024308584943184754 0.023379823365007216 0.01995136097159227</CenterOfMass>
+<Inertia>5.8231116298080617e-006 1.3626808889542794e-006 5.2759504602142386e-006 7.9952660665436533e-008 6.8040252168731868e-008 -1.6794527398500807e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Gia_do_vitme-A1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gia_do_vitme-A2" uid="Gia_do_vitme-A2*:*Default" version="321">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gia_do_vitme-A2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014199105162179156</Mass>
+<CenterOfMass>-0.026754686111688082 0.021870541664315259 0.018639561916547743</CenterOfMass>
+<Inertia>6.3097921104158302e-006 2.5288473384770746e-006 6.7516180298594724e-006 -2.6200712088644447e-007 -3.6309691897499062e-007 -8.0599915209256586e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Gia_do_vitme-A2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gia_do_vitme-A3" uid="Gia_do_vitme-A3*:*Default" version="321">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gia_do_vitme-A3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.014199105162179156</Mass>
+<CenterOfMass>-0.026754686111688089 0.021870541664315256 0.020649301448341137</CenterOfMass>
+<Inertia>6.3097921104158234e-006 2.5288473384770729e-006 6.751618029859469e-006 2.6200712088644664e-007 3.6309691897498935e-007 -8.0599915209256851e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Gia_do_vitme-A3_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Gia_do_vitme-A4" uid="Gia_do_vitme-A4*:*Default" version="287">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Gia_do_vitme-A4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.013128905970841029</Mass>
+<CenterOfMass>-0.024315641908860354 0.023369226831104511 0.019332634312352884</CenterOfMass>
+<Inertia>5.8261323179695006e-006 1.36432181723913e-006 5.2795329150294667e-006 -8.1091810761972544e-008 -6.8798891097689615e-008 -1.6959612442635878e-007</Inertia>
+</MassProperties>
+<GeometryFile name="Gia_do_vitme-A4_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nut-1-v2" uid="Nut-1-v2*:*Default" version="180">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nut-1-v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031254072733165328</Mass>
+<CenterOfMass>-3.1176811673935361e-009 0.053720575965513481 0.00043733253425267684</CenterOfMass>
+<Inertia>2.8495493136069337e-005 1.0604017169456749e-005 2.0688284395329392e-005 -3.7730972196377884e-007 -2.1757689825978009e-012 -2.6816961181516493e-012</Inertia>
+</MassProperties>
+<GeometryFile name="Nut-1-v2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Nut-2-v2" uid="Nut-2-v2*:*Default" version="241">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Nut-2-v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.039076954559351305</Mass>
+<CenterOfMass>-0.011216217422400957 0.055864067220597051 0.00054988793730231062</CenterOfMass>
+<Inertia>3.1957368053867188e-005 1.9723259440363765e-005 2.7815193478555714e-005 -4.1499550536617589e-007 1.9728159863098198e-007 6.9277841205525221e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Nut-2-v2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TrucChinh200" uid="TrucChinh200*:*Default" version="300">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TrucChinh200.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0084178442510954854</Mass>
+<CenterOfMass>0 0 0.11</CenterOfMass>
+<Inertia>3.3746606315747079e-005 3.3746491266435313e-005 5.4045371480450932e-008 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TrucChinh200_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Specular r="0.37647058823529411" g="0.37647058823529411" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="U-joint-1" uid="U-joint-1*:*Default" version="564">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="U-joint-1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0017851307571942108</Mass>
+<CenterOfMass>0 1.1641519994943863e-006 0.0035000000000000005</CenterOfMass>
+<Inertia>3.3030901989614776e-008 3.2515188441302738e-007 3.431583472687338e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="U-joint-1_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="U-joint-2-v2" uid="U-joint-2-v2*:*Default" version="196">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="U-joint-2-v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0058735822877788489</Mass>
+<CenterOfMass>-0.0068486928098269676 0.0035000000000000005 0.005873198644782314</CenterOfMass>
+<Inertia>6.1058678758613627e-007 4.1560140181242872e-006 3.5939035945441845e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="U-joint-2-v2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="u-joint-3-v2" uid="u-joint-3-v2*:*Default" version="258">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="u-joint-3-v2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0024028176461371432</Mass>
+<CenterOfMass>0.00058088294656982102 0.005320326711875034 0.002909739679065776</CenterOfMass>
+<Inertia>1.0541771535987695e-007 1.1741075592728959e-006 1.2594982974895978e-006 -6.2280436653247483e-015 -4.8689904998061392e-015 5.2596907595488954e-015</Inertia>
+</MassProperties>
+<GeometryFile name="u-joint-3-v2_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="vitme" uid="vitme*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="vitme.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.012566370614359173</Mass>
+<CenterOfMass>0 0 0.125</CenterOfMass>
+<Inertia>6.5500112432244782e-005 6.5500112432244782e-005 1.0053096491487339e-007 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="vitme_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
